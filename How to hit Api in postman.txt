@@ -1,0 +1,44 @@
+NotesBy: Kapil sir
+===========================================================================
+Steps:
+1.open the postman as well as gorest site
+2.select the method
+3.add the url/api
+4.add the headers
+  a. authorization
+  b. content-type
+5.Only in case of POST and PUT add the body not for the GET(skip 5th step for GET)
+6.  click on send
+
+get token from gorest site(login->in howdy-Api token)
+ex:AUTHORIZATION- Bearer kdhfkgshfk745874697456740bhchjfvx4889
+
+
+---------------------------------------------------------------------------
+GET- to fetch data- https://gorest.co.in/public/v2/users
+-----------------------------------------------------------------------------
+1.POST-use this data to create 
+
+url-https://gorest.co.in/public/v2/users
+ex:
+{
+ "name": "madhuri",
+ "email": "madhuri@gmail.com",
+ "gender": "Female",
+ "status": "Active"
+}
+---------------------------------------------------------------------------
+
+-----------------------------------------------------------------------------
+PUT-to update the data- https://gorest.co.in/public/v2/users/2046  (add existing id eg.2046)
+ - then update any field(eg. change the mail id)
+{
+ "name": "madhuri adamane",
+ "email": "madhuri123@gmail.com",
+ "gender": "Female",
+ "status": "Active"
+}
+-------------------------------------------------------------------------------
+
+
+
